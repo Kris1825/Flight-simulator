@@ -1,0 +1,212 @@
+:root {
+  --light-cornflower-blue: #8ecae6ff;
+  --blue-green: #219ebcff;
+  --prussian-blue: #023047ff;
+  --selective-yellow: #ffb703ff;
+  --tangerine: #fb8500ff;
+  --black: black;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* hero image */
+#hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/departure-lounge-hq.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 80px;
+  color: white;
+  text-shadow: 2px 2px 5px #023047ff;
+}
+
+#holiday-dropdown {
+  width: 50vw;
+}
+
+.dropdown,
+.dropdown-menu,
+.dropdown-trigger,
+#holiday-dropdown-btn {
+  width: 100%;
+}
+
+/* holiday snaps page styling */
+
+/* page title styling */
+
+.page-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 5px;
+  color: var(--selective-yellow);
+}
+
+/* card styling */
+.hs-card {
+  margin: 70px 250px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hashtags {
+  padding-bottom: 25px;
+}
+
+.hashtag-texts {
+  margin: 0 10px;
+  color: var(--blue-green);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding-bottom: 20px;
+}
+
+.btn a:hover {
+  cursor: pointer;
+}
+
+/* webcam section styling */
+
+.card-video {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.location-title {
+  text-align: center;
+}
+
+.weather-content {
+  min-height: 64px;
+}
+
+.console-btn {
+  width: 15vw;
+  background-color: var(--prussian-blue);
+  color: var(--light-cornflower-blue);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.console-btn:hover,
+.holiday-snap-btn:hover {
+  cursor: pointer;
+  color: var(--tangerine);
+}
+
+.waiter-image {
+  height: 20vh;
+  width: 10vw;
+  object-fit: scale-down;
+}
+
+.logo {
+  height: 48px;
+  width: 100px;
+  padding: 0;
+  object-fit: scale-down;
+}
+
+#holiday-snap {
+  width: 50vw;
+  margin: 18px auto;
+}
+
+.holiday-snap-btn {
+  width: 100%;
+  background-color: var(--light-cornflower-blue);
+  color: var(--prussian-blue);
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+}
+
+.saved-postcard {
+  width: 100%;
+  background-color: var(--tangerine);
+  color: var(--prussian-blue);
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+}
+
+.about-us-container {
+  margin: 8px;
+}
+
+.about-card {
+  position: relative;
+  min-height: 690px;
+  margin: 18px auto;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+}
+
+.headshot {
+  object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+  .main-title {
+    font-size: 72px;
+    padding-top: 0;
+  }
+  #holiday-dropdown,
+  #holiday-snap {
+    width: 90vw;
+  }
+
+  .console-btn {
+    width: 48vw;
+  }
+
+  .waiter-interact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .about-card {
+    min-height: 640px;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  #weather-container,
+  #waiter-container {
+    width: 110vw;
+  }
+}
+
+/* .holiday-type {
+  text-align: center;
+} */
