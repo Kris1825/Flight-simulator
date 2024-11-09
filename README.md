@@ -3,7 +3,7 @@
 
 This interactive app allows the user to experience a virtual holiday abroad. Begin by selecting a holiday type and be transported away to a new destination. Everything the user needs to recreate the holiday feeling virtually is included - from the scenery and atmospheric music, to a waiter who offers a snack and tells bad jokes!
 
-Please click here to view my [deployed GitHub URL](https://kris1825.github.io/flight-simulator/) and enjoy a holiday experience of your own!
+Please click here to view my [deployed GitHub URL](https://kris1825.github.io/Flight-simulator/) and enjoy a holiday experience of your own!
 
 
 
